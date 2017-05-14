@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Больничный помощник</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="enter">Войти</string>
+    <string name="procedure">Процедуры</string>
+    <string name="drugs">Лекарства</string>
+    <string name="drug_name">Название лекарства</string>
+    <string name="more">Подробности</string>
+    <string name="drug_time">Время:</string>
+    <string name="drug_extra">Принимать после еды</string>
+    <string name="notice_settings">Настройки оповещений</string>
+    <string name="melody">Мелодия:</string>
+    <string name="volume">Громкость:</string>
+    <string name="procedure_name">Название процедуры</string>
+    <string name="procedure_time">Время:</string>
+    <string name="procedure_place">Кабинет:</string>
+    <string name="doctor_name">Врач: </string>
+    <string name="title_activity_loading">LoadingActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

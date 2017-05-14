@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drug_fragment"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_marginStart="25dp"
+    android:layout_marginEnd="25dp"
+    android:background="#f5f5f5">
+
+
+    <ImageView
+        android:id="@+id/blueLineUp"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#3fa9f5"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
+        android:id="@+id/drugName"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/drug_name"
+        android:paddingTop="18dp"
+        android:textSize="18sp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/blueLineUp"/>
+
+    <TextView
+        android:id="@+id/textMore"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/more"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:layout_below="@id/blueLineUp"/>
+
+    <TextView
+        android:id="@+id/textDrugTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/drug_time"
+        android:textSize="18sp"
+        android:layout_below="@id/drugName"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/textDrugTimeValues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_below="@id/drugName"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/textDrugTime"/>
+
+
+    <TextView
+        android:id="@+id/textDrugFeatures"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/drug_extra"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/textDrugTime"/>
+
+
+</RelativeLayout>
